@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Across the FM Value Chain | Executive Report — AZ Consultants KSA</title>
+<meta name="description" content="Enterprise IFMA-aligned executive report on AI in Facilities Management: KSA Vision 2030 benchmarks, real case studies, EBITDA playbook, and 90-day roadmap.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d2a1d;--bg2:#123a28;--card:rgba(247,245,240,.06);--bdr:rgba(247,245,240,.16);--gold:#e8b44c;--gold2:#c98a1a;--txt:#f7f5f0;--mut:#cdd8cf;--soft:#8fb39e}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--txt);line-height:1.65;font-size:17px}
+#bar{position:fixed;top:0;left:0;height:3px;width:0;background:var(--gold);z-index:99}
+nav{position:sticky;top:0;z-index:50;background:rgba(8,28,19,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--bdr);padding:12px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:16px;color:var(--txt);text-decoration:none}
+.sq{display:grid;place-items:center;width:30px;height:30px;border-radius:6px;background:var(--gold2);color:var(--bg2);font-weight:900;font-size:13px}
+.navlinks{display:flex;gap:16px;flex-wrap:wrap;align-items:center}
+.navlinks a{color:var(--mut);text-decoration:none;font-size:13px;font-weight:600}
+.navlinks a:hover{color:var(--gold)}
+.navcta{background:var(--gold2);color:var(--bg2)!important;padding:7px 14px;border-radius:99px;font-weight:800!important}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.hero{padding:64px 20px 48px;background:linear-gradient(120deg,rgba(13,42,29,.95) 45%,rgba(13,42,29,.72)),url('assets/cover_skyline.png') center/cover no-repeat;border-bottom:1px solid var(--bdr)}
+.chip{display:inline-block;font-size:12px;font-weight:700;color:var(--gold);background:rgba(247,245,240,.08);border:1px solid rgba(232,180,76,.4);padding:5px 14px;border-radius:99px;margin-bottom:16px}
+h1{font-size:clamp(32px,5vw,52px);line-height:1.08;margin:0 0 16px;font-weight:800;letter-spacing:-.02em}
+h1 em,h2 em{font-style:normal;color:var(--gold)}
+.lead{font-size:clamp(16px,2vw,20px);color:var(--mut);max-width:740px;margin:0 0 28px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-top:24px}
+.kpi{background:rgba(8,28,19,.85);border:1px solid rgba(232,180,76,.35);border-radius:12px;padding:18px}
+.kpi b{display:block;font-size:26px;color:var(--gold);line-height:1.1;margin-bottom:4px}
+.kpi span{font-size:13px;color:var(--mut)}
+section{padding:52px 0;border-bottom:1px solid var(--bdr)}
+.sec-tag{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+h2{font-size:clamp(24px,3.2vw,34px);line-height:1.15;margin:0 0 12px;font-weight:800}
+.sub{color:var(--mut);margin:0 0 28px;max-width:780px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;align-items:center}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--bdr);border-radius:14px;padding:22px}
+.card h3{margin:0 0 8px;font-size:18px;color:var(--gold)}
+.card p{margin:0;font-size:15px;color:#eef2ec}
+.vis{background:rgba(247,245,240,.04);border:1px solid var(--bdr);border-radius:14px;padding:14px;text-align:center}
+.vis img{width:100%;height:auto;border-radius:8px;display:block}
+.cap{display:block;font-size:12px;color:var(--soft);margin-top:8px;font-weight:600}
+.callout{background:rgba(232,180,76,.13);border-left:4px solid var(--gold);border-radius:8px;padding:16px 20px;margin-top:20px}
+.callout b{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--gold);margin-bottom:4px}
+.case{background:rgba(8,28,19,.8);border:1px solid rgba(232,180,76,.35);border-radius:14px;padding:22px;display:flex;flex-direction:column;gap:10px}
+.case .tag{font-size:11px;font-weight:700;color:var(--bg2);background:var(--gold);padding:3px 10px;border-radius:99px;align-self:flex-start}
+.case h3{margin:0;font-size:19px;color:var(--txt)}
+.case .met{font-size:22px;font-weight:800;color:var(--gold)}
+.case p{margin:0;font-size:14.5px;color:var(--mut)}
+.funnel-step{display:flex;gap:16px;align-items:flex-start;background:var(--card);border:1px solid var(--bdr);border-radius:12px;padding:18px;margin-bottom:12px}
+.num{flex:none;width:36px;height:36px;border-radius:50%;background:var(--gold2);color:var(--bg2);display:grid;place-items:center;font-weight:900;font-size:16px}
+.cta-box{background:linear-gradient(135deg,#123a28,#081c13);border:2px solid var(--gold);border-radius:18px;padding:34px;text-align:center;margin-top:24px}
+.btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:22px}
+.btn{display:inline-block;padding:13px 22px;border-radius:10px;font-weight:800;text-decoration:none;font-size:15px}
+.btn.p{background:var(--gold2);color:var(--bg2)}
+.btn.s{background:rgba(247,245,240,.1);color:var(--txt);border:1px solid var(--bdr)}
+footer{padding:28px 20px;text-align:center;font-size:13px;color:var(--soft);background:#081c13}
+@media(max-width:640px){.navlinks a:not(.navcta){display:none}}
+</style>
+</head>
+<body>
+<div id="bar"></div>
+<nav>
+  <a class="brand" href="#"><span class="sq">AZ</span>AZ Consultants · KSA</a>
+  <div class="navlinks">
+    <a href="#outlook">Outlook</a>
+    <a href="#pains">Pain Points</a>
+    <a href="#cases">Case Studies</a>
+    <a href="#ebitda">EBITDA</a>
+    <a href="#governance">Governance</a>
+    <a class="navcta" href="#funnel">Book Free Call →</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="chip">IFMA-Aligned Executive Report · KSA &amp; Global FM</span>
+    <h1>AI Across the <em>FM Value Chain</em>: From Plant Room to Boardroom</h1>
+    <p class="lead">An enterprise playbook for CEOs, COOs, and Asset Owners: verified KSA Vision 2030 benchmarks, real case studies, and how to turn disconnected CAFM/BMS data into 15%+ contract EBITDA.</p>
+    <div class="kpis">
+      <div class="kpi"><b>$37.7B → $67.5B</b><span>KSA FM Market Trajectory (2025–2030E)</span></div>
+      <div class="kpi"><b>50–70%</b><span>Unplanned Equipment Downtime Cut</span></div>
+      <div class="kpi"><b>9.0% → 15.3%</b><span>Net Contract EBITDA Expansion</span></div>
+      <div class="kpi"><b>&lt; 6 Months</b><span>Typical AI ROI Payback Period</span></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="outlook">
+    <div class="sec-tag">01 · Market Outlook &amp; Purpose</div>
+    <h2>KSA FM surges to <em>$67.5B by 2030E</em> — but margins belong to intelligent operators</h2>
+    <p class="sub">Under ISO 41001 and IFMA standards, Facility Management integrates people, place, and process to protect the core business. As Saudi giga-projects transition from construction to 20-year operations, manual and reactive FM can no longer protect SLA margins.</p>
+    <div class="grid2">
+      <div class="vis"><img src="assets/charts/c05_ksa_market.png" alt="KSA FM Market Trajectory"><span class="cap">KSA Facility Management Market Trajectory (2025–2030E, USD Billions)</span></div>
+      <div>
+        <div class="card" style="margin-bottom:14px"><h3>Sector Economics</h3><p>Outsourced IFM spend concentrates in <b>Real Estate (34%)</b>, <b>Healthcare (24%)</b>, and <b>Airports (16%)</b> — where a single plant-room failure directly hits patient safety or tenant revenue.</p></div>
+        <div class="card"><h3>The 5-Stage Maturity Jump</h3><p>Single-service labour tenders trap operators at <b>5–7% EBITDA</b>. Intelligent AI-orchestrated FM expands net margins to <b>15–17%+</b>.</p></div>
+        <div class="callout"><b>Executive Takeaway</b>Move 20% of your portfolio to outcome-based, AI-enabled contracts within 18 months.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pains">
+    <div class="sec-tag">02 · The C-Suite Reality</div>
+    <h2>Why <em>78% of FM leaders</em> lose margin to data silos</h2>
+    <p class="sub">Known industry fact: 80% of FM AI pilots fail not because of weak AI models, but because nobody fixed the CAFM-to-BMS-to-ERP data plumbing first.</p>
+    <div class="grid2">
+      <div>
+        <div class="grid3" style="grid-template-columns:1fr;gap:12px">
+          <div class="card"><h3>1. Disconnected Systems</h3><p>CAFM, BMS, ERP, and HR operate in silos — the boardroom never sees real-time contract P&amp;L.</p></div>
+          <div class="card"><h3>2. Blind Bidding &amp; Mobilisation Burn</h3><p>Inaccurate RFP costing and 90-day manual asset tagging erode contract profitability before Day One.</p></div>
+          <div class="card"><h3>3. Reactive Firefighting</h3><p>Skilled MEP technician shortages + calendar-based PPM drive 30% wasted energy and avoidable SLA fines.</p></div>
+        </div>
+      </div>
+      <div class="vis"><img src="assets/charts/c02_pain_points.png" alt="Top 5 FM Pain Points"><span class="cap">Top 5 Margin-Eroding Pain Points Reported by FM Leaders</span></div>
+    </div>
+  </section>
+
+  <section id="cases">
+    <div class="sec-tag">03 · Proven Field Results</div>
+    <h2>Three <em>KSA &amp; GCC Case Studies</em>: Lessons &amp; Verified ROI</h2>
+    <p class="sub">Real operational transformations across healthcare, commercial portfolios, and contract renewals.</p>
+    <div class="grid3">
+      <div class="case">
+        <span class="tag">Healthcare · KSA</span>
+        <h3>Hospital Chiller Plant</h3>
+        <div class="met">-62% Downtime</div>
+        <p><b>Pain:</b> Unplanned chiller trip risked OT/ICU cooling + SAR 180K SLA penalty.</p>
+        <p><b>Action:</b> BMS telemetry + Predictive AI flagged seal wear 21 days early (74% confidence).</p>
+        <p><b>Result:</b> 17.5h → 3.5h downtime, 18% energy saved, <b>4.5-month payback</b>.</p>
+      </div>
+      <div class="case">
+        <span class="tag">Commercial · Riyadh</span>
+        <h3>Portfolio Mobilisation</h3>
+        <div class="met">90d → 35d Go-Live</div>
+        <p><b>Pain:</b> Manual asset tagging caused 35% CAFM errors and 90 days of non-billable burn.</p>
+        <p><b>Action:</b> Technicians photographed AHU tags; Vision AI extracted brand, model, and O&amp;M.</p>
+        <p><b>Result:</b> 100% clean CAFM in 35 days — <b>55 days of mobilisation burn saved</b>.</p>
+      </div>
+      <div class="case">
+        <span class="tag">Mixed-Use · GCC</span>
+        <h3>Closed-Loop Renewal</h3>
+        <div class="met">54% → 86% Renewal</div>
+        <p><b>Pain:</b> Lost institutional memory at handover caused 46% contract churn.</p>
+        <p><b>Action:</b> Automated 360° value-delivered dossiers generated 6 months before expiry.</p>
+        <p><b>Result:</b> <b>86% renewal rate</b> and 98% CAFM accuracy at handover.</p>
+      </div>
+    </div>
+    <div class="grid2" style="margin-top:24px">
+      <div class="vis"><img src="assets/plant_room_ai.png" alt="Vision AI Plant Room"><span class="cap">Vision AI turns existing security CCTV into a 24/7 leak &amp; safety sensor</span></div>
+      <div class="vis"><img src="assets/technician_tablet.png" alt="Technician AI Tablet"><span class="cap">Multimodal tablets eliminate paperwork and boost first-time fix rate by 20%</span></div>
+    </div>
+  </section>
+
+  <section id="ebitda">
+    <div class="sec-tag">04 · Commercial &amp; EBITDA Playbook</div>
+    <h2>Expanding net contract EBITDA from <em>9.0% to 15.3%</em></h2>
+    <p class="sub">AI is not an IT cost centre — it is a direct margin-expansion engine across bidding, energy, and labour.</p>
+    <div class="grid2">
+      <div class="vis"><img src="assets/charts/c14_ebitda_waterfall.png" alt="EBITDA Waterfall"><span class="cap">Contract Monetisation Waterfall: 9.0% Base → 15.3% Net AI Margin</span></div>
+      <div class="vis"><img src="assets/charts/c20_roi_jcurve.png" alt="ROI Payback J-Curve"><span class="cap">12-Month AI Adoption &amp; Cumulative Net Value ($K) — Payback &lt; 6 Months</span></div>
+    </div>
+    <div class="callout"><b>Commercial Leverage Tip</b>Structure shared-savings clauses with asset owners to split the 20–30% AI energy reduction 50/50, turning sustainability into pure profit.</div>
+  </section>
+
+  <section id="governance">
+    <div class="sec-tag">05 · Architecture &amp; Governance</div>
+    <h2>Scale without silos: <em>Open APIs + Human-in-the-Loop</em></h2>
+    <p class="sub">Today's isolated AI point-solutions become tomorrow's expensive silos. Build one open, model-agnostic data spine with strict human accountability.</p>
+    <div class="grid2">
+      <div class="vis"><img src="assets/command_center.png" alt="FM Command Center"><span class="cap">Integrated FM Operations Command Center with human approval gates</span></div>
+      <div class="vis"><img src="assets/charts/c22_gov_scale.png" alt="Governance Scale"><span class="cap">Autonomy must never outpace governance (Assist → Recommend → Coordinate → Act)</span></div>
+    </div>
+  </section>
+
+  <section id="funnel" style="border-bottom:none">
+    <div class="sec-tag">06 · Your Next Step with AZ Consultants KSA</div>
+    <h2>The <em>AZ Consultants</em> Path From Idea to EBITDA</h2>
+    <p class="sub">Most advisors hand you a 100-page strategy PDF and leave. As Senior Forward Deployed Engineers, we build the working data spine, pass KSA tender compliance, and prove ROI in 90 days.</p>
+    <div class="funnel-step"><div class="num">1</div><div><b>Discover (Free 30-Min Readiness Call)</b><br><span style="color:var(--mut);font-size:15px">Your portfolio pain points, quick wins, and 3 ranked AI use cases.</span></div></div>
+    <div class="funnel-step"><div class="num">2</div><div><b>Diagnose (Data &amp; Process Audit)</b><br><span style="color:var(--mut);font-size:15px">CAFM, BMS, ERP plumbing check and 0–5 feasibility/value scoring.</span></div></div>
+    <div class="funnel-step"><div class="num">3</div><div><b>Design (Roadmap &amp; EBITDA Model)</b><br><span style="color:var(--mut);font-size:15px">Prioritised AI portfolio with &lt;6-month payback and governance guardrails.</span></div></div>
+    <div class="funnel-step"><div class="num">4</div><div><b>Deliver (90-Day Pilot → Integration)</b><br><span style="color:var(--mut);font-size:15px">Working systems embedded in your CAFM/BMS + KSA tender support.</span></div></div>
+    <div class="funnel-step"><div class="num">5</div><div><b>Scale (Portfolio Roll-Out)</b><br><span style="color:var(--mut);font-size:15px">Boardroom KPIs and quarterly margin expansion reviews.</span></div></div>
+
+    <div class="cta-box">
+      <h2 style="margin-bottom:8px">Ready to turn FM data into <em>boardroom decisions</em>?</h2>
+      <p style="color:var(--mut);margin:0 auto;max-width:620px">Book a free 30-minute AI-in-FM readiness call with <b>Aamir Zameer</b> (Senior Forward Deployed Engineer · AZ Consultants). Leave with 3 ranked use cases — zero obligation.</p>
+      <div class="btns">
+        <a class="btn p" href="https://wa.me/966574268856">WhatsApp / Call: +966 57 426 8856</a>
+        <a class="btn s" href="mailto:azengineeringapp@gmail.com">Email: azengineeringapp@gmail.com</a>
+        <a class="btn s" href="https://azconsultants-ksa.pages.dev">AZ Consultants KSA</a>
+        <a class="btn s" href="https://www.linkedin.com/in/aamirzameer">LinkedIn</a>
+        <a class="btn s" href="https://github.com/Amz34">GitHub</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <b>AZ Consultants · KSA</b> · C-Suite Executive Briefing: AI in Facilities Management · <a href="https://azconsultants-ksa.pages.dev" style="color:var(--gold)">azconsultants-ksa.pages.dev</a>
+</footer>
+
+<script>
+window.addEventListener('scroll',()=>{const h=document.documentElement;document.getElementById('bar').style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight))*100+'%';});
+</script>
+</body>
+</html>
