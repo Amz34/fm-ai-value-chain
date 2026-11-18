@@ -1,0 +1,39 @@
+site_name: AI Across the FM Value Chain
+site_description: IFMA-Aligned Executive Playbook for KSA & Global FM Leaders — AZ Consultants
+site_author: Aamir Zameer · AZ Consultants KSA
+site_url: https://amz34.github.io/fm-ai-value-chain/
+repo_url: https://github.com/Amz34/fm-ai-value-chain
+repo_name: Amz34/fm-ai-value-chain
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+    - scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Executive Overview: index.md
+  - 1. Market Outlook & Pain Points: 01-market-and-pain-points.md
+  - 2. The AI Toolbox for FM: 02-ai-toolbox.md
+  - 3. KSA & GCC Case Studies: 03-ksa-case-studies.md
+  - 4. Commercial & EBITDA Playbook: 04-ebitda-playbook.md
+  - 5. Governance & Architecture: 05-governance-and-architecture.md
+  - 6. AZ Consultants KSA Funnel & Hire Us: 06-az-consultants-funnel.md
