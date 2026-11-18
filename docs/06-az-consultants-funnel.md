@@ -20,4 +20,3 @@
 - **LinkedIn:** [linkedin.com/in/aamirzameer](https://www.linkedin.com/in/aamirzameer)
 - **GitHub:** [github.com/Amz34](https://github.com/Amz34)
 - **Download 27-Slide A4 Deck (PDF):** [AZ_AI_in_FM_Value_Chain_A4.pdf](https://github.com/Amz34/fm-ai-value-chain/raw/main/AZ_AI_in_FM_Value_Chain_A4.pdf)
-- **Download Executive eBook (PDF):** [AZ_AI_in_FM_eBook_A4.pdf](https://github.com/Amz34/fm-ai-value-chain/raw/main/AZ_AI_in_FM_eBook_A4.pdf)

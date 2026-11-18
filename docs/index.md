@@ -20,6 +20,5 @@
 ## Quick Downloads & Links
 
 - **27-Slide Executive Deck (A4 Landscape PDF):** [Download PDF](https://github.com/Amz34/fm-ai-value-chain/raw/main/AZ_AI_in_FM_Value_Chain_A4.pdf)
-- **Executive eBook (A4 Portrait PDF):** [Download eBook](https://github.com/Amz34/fm-ai-value-chain/raw/main/AZ_AI_in_FM_eBook_A4.pdf)
 - **Book a Free 30-Min Readiness Call:** [AZ Consultants KSA](https://azconsultants-ksa.pages.dev) · [WhatsApp +966 57 426 8856](https://wa.me/966574268856)
 - **Connect:** [LinkedIn](https://www.linkedin.com/in/aamirzameer) · [GitHub](https://github.com/Amz34/fm-ai-value-chain)
