@@ -86,6 +86,11 @@ graph LR
 
 ## Live LinkedIn Briefing & Newsletter
 
-<div style="max-width:560px;margin:24px auto;overflow:hidden;border-radius:12px;">
-  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7529053374915366914" height="1635" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:20px;margin:24px 0;">
+  <div style="overflow:hidden;border-radius:12px;">
+    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7528954969882890240" height="680" width="100%" frameborder="0" allowfullscreen="" title="TIME TO ELEVATE FM Newsletter"></iframe>
+  </div>
+  <div style="overflow:hidden;border-radius:12px;">
+    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7529053374915366914" height="680" width="100%" frameborder="0" allowfullscreen="" title="Executive Briefing Post"></iframe>
+  </div>
 </div>
