@@ -77,6 +77,6 @@ graph LR
 ## Executive Engagement & Whitepaper Downloads
 
 - **Official 27-Page C-Suite Deck (PDF):** [Download AZ_AI_in_FM_Value_Chain_A4.pdf](https://github.com/Amz34/fm-ai-value-chain/raw/main/AZ_AI_in_FM_Value_Chain_A4.pdf)
-- **Book Strategic Advisory:** [AZ Consultants KSA Portal](https://azconsultants-ksa.pages.dev)
+- **Book Strategic Advisory:** [AZ Consultants KSA Portal — https://azconsultants-ksa.pages.dev](https://azconsultants-ksa.pages.dev)
 - **Direct WhatsApp Consultation:** [Chat with Principal Consultant (+966 57 426 8856)](https://wa.me/966574268856)
 - **LinkedIn Executive Network:** [Aamir Zameer (AZ Consultants)](https://www.linkedin.com/in/aamirzameer)
