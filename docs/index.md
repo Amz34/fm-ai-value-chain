@@ -81,3 +81,11 @@ graph LR
 - **LinkedIn Newsletter (TIME TO ELEVATE FM):** [Read & Subscribe: AI Across the FM Value Chain](https://lnkd.in/eDBfX4TS)
 - **Direct WhatsApp Consultation:** [Chat with Principal Consultant (+966 57 426 8856)](https://wa.me/966574268856)
 - **LinkedIn Executive Network:** [Aamir Zameer (AZ Consultants)](https://www.linkedin.com/in/aamirzameer)
+
+---
+
+## Live LinkedIn Briefing & Newsletter
+
+<div style="max-width:560px;margin:24px auto;overflow:hidden;border-radius:12px;">
+  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7529053374915366914" height="1635" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+</div>
