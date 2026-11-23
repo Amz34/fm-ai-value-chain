@@ -106,3 +106,7 @@ Today's isolated AI point-solutions become tomorrow's expensive silos. Build one
 - **GitHub:** [github.com/Amz34](https://github.com/Amz34)
 
 *Engineered by **Aamir Zameer** — Senior Forward Deployed Engineer · AZ Consultants KSA.*
+
+---
+
+Part of [my always-on agent stack](https://github.com/Amz34) · [Awesome Agent Infrastructure](https://github.com/Amz34/awesome-agent-infrastructure) (135 live-checked building blocks).
